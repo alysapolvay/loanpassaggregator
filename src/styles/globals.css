@@ -1,0 +1,15 @@
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+}
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+main {
+  display: block;
+}
